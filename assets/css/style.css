@@ -20,11 +20,13 @@ body {
   padding: 0;
 }
 
-body {
-  background-image: url(../images/bg coffee.jpg); 
-  background-size: contain;
+.image {
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(../images/bgcoffee.jpg); 
+  background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .container {
@@ -53,4 +55,16 @@ body {
 
 .text-center1 {
 	text-decoration: underline;
+}
+
+.row1 {
+
+  background-image: url("../images/coffee111.png"); 
+  background-size: cover;
+  
+    background-repeat: no-repeat;
+}
+
+.text-center {
+  text-align: center!important;
 }
