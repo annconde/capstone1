@@ -6,12 +6,28 @@
 	box-sizing: border-box;
 }
 
+.container-fluid {
+	background-image: url(../images/bgcoffee.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Roboto', cursive;
+}
 
+}
 .varieties {
 	background: white;
 	min-height: 300px;
 }
 
+.map {
+	height: 500px;
+	width: 300px;
+}
 .gallery {
 	background: white;
 	min-height: 800px;
@@ -31,3 +47,47 @@ img[alt*="gallery"] {
 	border: 1px solid black;
 	display: block;
 }	
+
+.card {
+	display: flex;
+	overflow: hidden;
+	border: 1px solid black;
+	height: 450px;
+	margin-bottom: 30px;
+}
+
+.cofee {
+	height: 100%;
+	width: 100%;
+}
+
+/*.read-more{
+	color: red;
+}
+*/
+/*a:hover{
+text-decoration: none;
+}*/
+
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /*red*/
+  }
+}
+
+/*Tablet Styles*/
+@media only screen and 9min-width: 401px) and(max-width: 960px) {
+  body {background-color: #F5CF8E; /*yellow*/
+  } 
+}
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+  body {
+  background-color: #B2D6FF; /*blue*/
+  }
+}

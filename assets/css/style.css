@@ -8,9 +8,28 @@
 }
 
 
+.container-fluid {
+background-image: url(../images/bgcoffee.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: center;
+background-attachment: fixed;
+font-family: 'Roboto', cursive;
+}
+
+
+.navbar {
+  height: 100px;
+}
+
+
 #kape {
-	font-size: 50px;
-	font-color: brown;
+	font-size: 70px;
+  font-family: 'Pacifico', cursive;
+  font-color: brown;
 }
 
 
@@ -20,13 +39,22 @@ body {
   padding: 0;
 }
 
-.image {
+div {
+  display: block;
+}
+
+
+.jumbotron {
   height: 100vh;
   width: 100%;
-  background-attachment: fixed;
+  /*background-attachment: fixed;
   background-image: url(../images/bgcoffee.jpg); 
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
+ }
+
+.btn {
+  background-color: #ffc107;
 }
 
 .container {
@@ -42,14 +70,14 @@ body {
 
 }
 
-.inputs {
+/*.inputs {
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
+}*/
 
 
 
@@ -57,14 +85,37 @@ body {
 	text-decoration: underline;
 }
 
-.row1 {
-
+#footer {
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+  background-attachment: fixed;
   background-image: url("../images/coffee111.png"); 
   background-size: cover;
-  
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .text-center {
   text-align: center!important;
+}
+
+.container-fluid {
+  padding: 15px;
+}
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and(max-width: 960px) {
+
+}
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
 }
