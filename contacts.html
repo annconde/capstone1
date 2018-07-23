@@ -5,21 +5,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" contenteditable="IE-Edge">
-
-	<title>About</title>
+	
+	<title>Contacts</title>
 
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 	<!-- externals css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/about.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contacts.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|Roboto+Slab" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Acme|Dancing+Script|Pacifico|Shadows+Into+Light" rel="stylesheet"
-
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
+	
 </head>
 <body>
 
@@ -48,65 +46,37 @@
 	</nav>
 
 
-	<div class="container-fluid">
-		<h2 class="text-center header">About</h2>
-		<div class="row images">
-			<div class="col-sm-1"></div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f7.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f8.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f11.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f10.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f9.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-1"></div>
-		</div>
-	</div>
-	<br>
-	<div class="container-fluid">
+	<div class="container container-fluid form-contact">
+		<h3 class="text-center page-heading">Contact Me</h3>
 		<div class="row">
-			<div class="col-sm-12">
-				<h4>Francis "Ann" Conde---a coffee lover behind the scene. She loves to drink coffee everyday wayback 2013 but due to health reason she has to stop. Ann learned about <u>coffee farming</u> through the Corporate Social Responsibility (CSR) of <strong>Figaro Foundation Corp.</strong>
-				<br><br>
-				She joined the coffee tree planting at Brgy. Esperanza, Alfonso, Cavite in 2009. That experience marked the start of her appreciation to coffee farmers. Promoting coffee farming in a simple way is a good start.</h4>
+			<div class="col-sm-6 form-content">
+				<h4>Have something in mind?<br> Let's have a cup of coffee...</h4>
+				<form action="/action_page.php">
+				  <div class="form-group">
+				    <label for="firstname">First Name: </label>
+				    <input type="text" class="form-control" id="firstname">
+				  </div>
+				  <div class="form-group">
+				    <label for="email">Email:</label>
+				    <input type="text" class="form-control" id="email">
+				  </div>
+				  <div class="form-group">
+				    <label for="message">Message:</label>
+				    <textarea class="form-control" id="message" placeholder="Write something.."></textarea>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-sm-6 form-image">
+				<rounded-circle class shapes the image to a circle:</p>            
+	  			<img src="assets/images/CordilleraCoffee1.png" class="rounded image" alt=""> 
 			</div>
 		</div>
 	</div>
-	
 
-	<div class="container-fluid">
-		<div class="row images">
-			<div class="col-sm-2">
-				<img src="assets/images/about/f1.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f2.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f6.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f4.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f3.jpg" alt="" class="img-thumbnail">
-			</div>
-			<div class="col-sm-2">
-				<img src="assets/images/about/f5.jpg" alt="" class="img-thumbnail">
-			</div>
-		</div>
-	</div><br>
+	<hr>
 
-	<hr my-4>
-	
+
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col">
@@ -138,6 +108,9 @@
 		</div>
 		
 	</footer>
+        
+
+
 
 <!-- jquery first, then popper.js, then bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -146,17 +119,14 @@
 
 <!-- external bootstrap js -->
 <script type="assets/js/bootstrap.min.js"></script>
-<script src="bootstrap.masonry.min.js"></script>
-<script type="text/javascript">
-	$('.carousel').carousel({
-	  interval: 2000,
-	  wrap: false
-	});
 
-	$(function() {
-		$('.masonry').masonry();
-	});
-</script>
+
+
+
+
+
+
+
 
 </body>
 </html>

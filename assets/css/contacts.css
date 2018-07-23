@@ -1,0 +1,87 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+h4 {
+	color: brown;
+	text-shadow: 4px gray;
+}
+
+div .container {
+	width: 100%;
+}
+
+
+textarea {
+	height: 60px;
+}
+
+
+.form-contact {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.form-content {
+	margin-top: 20px;
+}
+
+
+.form-image {
+	margin-top: 20px;
+}
+
+.image {
+	width: 100%;
+}
+
+
+.page-heading {
+	font-family: 'Lobster';
+}
+
+.fb {
+	width: 3px;
+}
+
+.glg {
+	width: 2px;
+}
+
+.in {
+	width: 2px;
+}
+
+footer {
+	background-image: url(../images/coffee111.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 300px;
+	text-align: center;
+}
+
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and(max-width: 960px) {
+
+}
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
+}

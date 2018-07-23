@@ -1,0 +1,75 @@
+
+
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	background-image: url(../images/coffee.jpg);
+	}
+
+
+h1 {
+	color: white;
+	font-size: 44px;
+	text-shadow: 4px 4px #800000;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+h3	{
+	width: 100%;
+	color: #800000;
+	background-color: gray;
+}
+
+.carousel {
+	width: 60%;
+	margin: auto;
+}
+
+
+.col-sm-4 {
+	height: 300px;
+	width: 100%;
+}
+
+nav {
+	position: center
+}
+
+footer {
+	background-image: url(../images/coffee111.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 300px;
+	text-align: center;
+}
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and(max-width: 960px) {
+
+}
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
+}

@@ -1,0 +1,72 @@
+
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.media-object {
+	height: 100px;
+	width: 100px;
+}
+
+.farmer {
+	display: block;
+	margin: 0 auto;
+}
+
+
+h3 {
+	color: maroon;
+	background-color: gray;
+	text-align: center;
+	padding: 10 10 10 10px;
+}
+
+.col-sm-4 {
+	width: 100%;
+}
+
+h6 {
+	text-align: justify;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.col-sm-8 {
+	width: 100%;
+}
+
+
+footer {
+	background-image: url(../images/coffee111.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 300px;
+	text-align: center;
+}
+
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and(max-width: 960px) {
+
+}
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
+}
